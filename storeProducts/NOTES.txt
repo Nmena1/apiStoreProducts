@@ -1,0 +1,49 @@
+
+1 - carpeteras
+
+DAL
+BLL
+IOC
+Models
+Utility
+DTO
+
+2 - GET ENTITIES
+
+
+--CREATE LOGIN sa1 WITH PASSWORD = '1qaz.mena';
+
+
+--CREATE USER sa1 FOR LOGIN sa1;
+--ALTER ROLE db_owner ADD MEMBER sa1;
+
+
+--ALTER LOGIN sa1 ENABLE;
+--ALTER LOGIN sa1 WITH PASSWORD = '1qaz.mena';
+
+ALTER LOGIN sa1 ENABLE;
+
+
+SELECT name, is_disabled 
+FROM sys.sql_logins 
+WHERE name = 'sa1';
+
+
+
+1qaz.mena
+Scaffold-DbContext "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=storeProducts;Integrated Security=True;Trust Server Certificate=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context dbContext -Force
+
+
+Scaffold-DbContext "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=storeProducts;User ID=nmena;Password=1qaz.mena;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context dbContext -Force
+
+Scaffold-DbContext "Data Source=DESKTOP-1PAD0L9;Initial Catalog=storeProducts;User ID=sa1;Password=1qaz.mena;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context dbContext -Force
+
+
+3 ajustar appsetting
+ "ConnectionStrings": {
+   "sqlConection": "Data Source=DESKTOP-1PAD0L9;Initial Catalog=storeProducts;User ID=sa1;Password=1qaz.mena;Connect  Timeout=30; Encrypt=False; TrustServerCertificate=False; ApplicationIntent=ReadWrite; MultiSubnetFailover=False"
+ }
+ 
+4. crear dependency.cs en IOC
+
+
