@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "apiStock.Controllers.sessionController",
+    "Method": "create",
+    "RelativePath": "api/session/create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "apiStock.DTO.userDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiStock.Controllers.sessionController",
+    "Method": "Get",
+    "RelativePath": "api/session/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "apiStock.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

@@ -4,18 +4,16 @@ using apiStock.DTO;
 using apiStock.Models;
 using AutoMapper;
 
-
 namespace apiStock.BLL.Services
 {
-    public class RoleService : DAL.Repository.Contract.IRoleServices
+    public class RoleService : IRoleService
     {
         private readonly IGenerycRepository<Role> _rolService;
         private readonly IMapper _mapper;
 
-        public RoleService(IGenerycRepository<Role> rolService, IMapper mapper)
+        public RoleService(IGenerycRepository<Role> rolService)
         {
             _rolService = rolService;
-            _mapper = mapper;
         }
 
         public async Task<List<roleDTO>> list()
@@ -27,5 +25,6 @@ namespace apiStock.BLL.Services
             }
             catch { throw; }
         }
+
     }
 }

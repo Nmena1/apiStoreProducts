@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nmena\\Documents\\- developing\\storeProducts\\api\\apiStock\\apiStock.csproj": {}
+    "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\apiStock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nmena\\Documents\\- developing\\storeProducts\\api\\apiStock\\apiStock.csproj": {
+    "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\apiStock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nmena\\Documents\\- developing\\storeProducts\\api\\apiStock\\apiStock.csproj",
+        "projectUniqueName": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\apiStock.csproj",
         "projectName": "apiStock",
-        "projectPath": "C:\\Users\\nmena\\Documents\\- developing\\storeProducts\\api\\apiStock\\apiStock.csproj",
+        "projectPath": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\apiStock.csproj",
         "packagesPath": "C:\\Users\\nmena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nmena\\Documents\\- developing\\storeProducts\\api\\apiStock\\obj\\",
+        "outputPath": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -73,6 +77,10 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -80,6 +88,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.6.0, )"
             }
           },
           "imports": [

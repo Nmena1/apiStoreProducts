@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VA9nVuYK5hbO9UmEArgTUdMnvOqjrBVsgl/fLy3K3Y4=",
+  "Source": "apiStock",
+  "BasePath": "_content/apiStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

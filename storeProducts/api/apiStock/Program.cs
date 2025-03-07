@@ -1,3 +1,4 @@
+using apiStock.BLL.Services;
 using apiStock.IOC;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.InjectDependency(builder.Configuration);
 
 var app = builder.Build();
+
+// Usar el middleware
+app.UseMiddleware<_sessionServices>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

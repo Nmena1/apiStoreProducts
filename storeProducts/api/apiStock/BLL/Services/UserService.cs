@@ -12,12 +12,14 @@ namespace apiStock.BLL.Services
         private readonly IGenerycRepository<User> _userService;
         private readonly IMapper _mapper;
         private readonly _encriptService _encriptService;
+        private readonly _generateTKN _tokenService;
 
-        public UserService(IGenerycRepository<User> userService, IMapper mapper, _encriptService encriptService)
+        public UserService(IGenerycRepository<User> userService, IMapper mapper, _encriptService encriptService, _generateTKN tokenService)
         {
             _userService = userService;
             _mapper = mapper;
-            _encriptService = encriptService;   
+            _encriptService = encriptService;  
+            _tokenService = tokenService;
         }
 
         public async  Task<List<userListDTO>> list()
@@ -39,8 +41,9 @@ namespace apiStock.BLL.Services
                 {
                     throw new TaskCanceledException("Usuario ya existe...");
                 }
-                //string hashedPassword = PasswordHelper.HashPassword(model.Password);
-                // model.Password = await _encriptService.VerifyPassword(model.Password,);
+                
+                string _encriptPass = _encriptService.HashPassword(model.Password);
+                model.Password = _encriptPass;
                 var userMdl = await _userService.create(_mapper.Map<User>(model));
                 if(userMdl == null) { throw new TaskCanceledException("No se pudo crear"); }
 
@@ -96,16 +99,18 @@ namespace apiStock.BLL.Services
         {
             try
             {
-                var mdl = await _userService.get(mdl => mdl.UserName == model.UserName && mdl.Password == model.Password && mdl.Isactive == 1);
+                string pass = _encriptService.HashPassword(model.Password);
+
+                var mdl = await _userService.get(mdl => mdl.UserName == model.UserName && mdl.Password == pass && mdl.Isactive == 1);
 
                 if (mdl == null) { throw new TaskCanceledException("El usuario no existe"); }
 
                 sessionDTO session = new sessionDTO
                 {
-                 user = mdl.UserName,
-                 name = mdl.UserName,
-                 rol = "",
-                 token = ""
+                    user = mdl.UserName,
+                    name = mdl.Name,
+                    rol = mdl.RolId.ToString(),
+                    token = _tokenService.GenerateToken(mdl)
                 };
 
                 return session;
