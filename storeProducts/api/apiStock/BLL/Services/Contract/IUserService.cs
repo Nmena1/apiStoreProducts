@@ -10,7 +10,7 @@ namespace apiStock.BLL.Services.Contract
 
         public Task<bool> edit(userDTO model);
 
-        public Task<bool> delete(int id);
+        public Task<bool> delete(int id, string editUser);
 
         public Task<sessionDTO> logIn(loginDTO model);
 

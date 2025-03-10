@@ -25,6 +25,8 @@ public partial class User
 
     public string? ModifUser { get; set; }
 
+    public string? HashPass { get; set; }
+
     public virtual Role? Rol { get; set; }
 
     public virtual ICollection<StockMovement> StockMovements { get; set; } = new List<StockMovement>();

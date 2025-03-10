@@ -269,6 +269,9 @@ public partial class dbContext : DbContext
                 .HasMaxLength(25)
                 .IsUnicode(false)
                 .HasColumnName("CREATE_USER");
+            entity.Property(e => e.HashPass)
+                .IsUnicode(false)
+                .HasColumnName("hashPass");
             entity.Property(e => e.Isactive)
                 .HasDefaultValue(1)
                 .HasColumnName("ISACTIVE");

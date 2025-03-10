@@ -28,12 +28,14 @@ namespace apiStock.IOC
             //add automapper class
             services.AddAutoMapper(typeof(AutoMappeeProfile));
 
-            //services.AddScoped<IRoleServices, RoleService>();
-            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<IUserService, UserService>();
+            //services.AddScoped<IRoleService, RoleService>();
             services.AddScoped<_encriptService>();
             //services.AddScoped<_sessionServices>();
-            
+            services.AddScoped<_generateTKN>();
+            services.AddScoped<_generalService>();
+
             //token
             // Configuración de JWT
             var jwtSettings = configuration.GetSection("Jwt");

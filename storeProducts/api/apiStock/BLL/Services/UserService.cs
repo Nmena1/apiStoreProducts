@@ -74,7 +74,7 @@ namespace apiStock.BLL.Services
             catch { throw; }
         }
 
-        public async Task<bool> delete(int id)
+        public async Task<bool> delete(int id, string editUser)
         {
             try
             {
@@ -84,6 +84,7 @@ namespace apiStock.BLL.Services
 
                 mdl.ModifDate = DateTime.Now;
                 mdl.Isactive = 0;
+                mdl.ModifUser = editUser;
 
                 if (!await _userService.update(mdl))
                 {
@@ -101,9 +102,14 @@ namespace apiStock.BLL.Services
             {
                 string pass = _encriptService.HashPassword(model.Password);
 
-                var mdl = await _userService.get(mdl => mdl.UserName == model.UserName && mdl.Password == pass && mdl.Isactive == 1);
+                var mdl = await _userService.get(mdl => mdl.UserName == model.UserName && mdl.Isactive == 1);
 
                 if (mdl == null) { throw new TaskCanceledException("El usuario no existe"); }
+
+                if(!_encriptService.VerifyPassword(model.Password, mdl.Password))
+                {
+                    throw new TaskCanceledException("Contraseña incorrecta..");
+                }
 
                 sessionDTO session = new sessionDTO
                 {
