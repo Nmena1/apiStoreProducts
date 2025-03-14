@@ -30,9 +30,9 @@ namespace apiStock.IOC
 
             services.AddScoped<IRoleService, RoleService>();
             services.AddScoped<IUserService, UserService>();
-            //services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<IMovementService, MovementService>();
+            services.AddScoped<IProductService, ProductService>();
             services.AddScoped<_encriptService>();
-            //services.AddScoped<_sessionServices>();
             services.AddScoped<_generateTKN>();
             services.AddScoped<_generalService>();
 

@@ -1,8 +1,6 @@
 ﻿using apiStock.BLL.Services;
 using apiStock.BLL.Services.Contract;
-using apiStock.DAL.Repository.Contract;
 using apiStock.DTO;
-using apiStock.Models;
 using apiStock.Response;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -12,15 +10,15 @@ namespace apiStock.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class sessionController : ControllerBase
+    public class productsController : ControllerBase
     {
-        private readonly IUserService _userService;
-        private readonly _generalService _generycService;
+        private readonly IProductService _productService;
+        private readonly _generalService _generyService;
 
-        public sessionController(IUserService userService, _generalService generalService)
+        public productsController(IProductService productService, _generalService generyService)
         {
-            _userService = userService;
-            _generycService = generalService;
+           _productService = productService;
+           _generyService = generyService;
         }
 
         [HttpGet]
@@ -28,13 +26,13 @@ namespace apiStock.Controllers
         [Route("list")]
         public async Task<IActionResult> Get()
         {
-            var resp = new Response<List<userListDTO>>();
+            var resp = new Response<List<productListDTO>>();
             try
             {
                 resp.status = true;
-                resp.value = await _userService.list();
+                resp.value = await _productService.getList();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 resp.status = false;
                 resp.message = ex.Message;
@@ -47,14 +45,14 @@ namespace apiStock.Controllers
         [HttpPost]
         [Authorize]
         [Route("create")]
-        public async Task<IActionResult> create(userDTO model)
+        public async Task<IActionResult> create(productDTO model)
         {
-            var resp = new Response<userDTO>();
+            var resp = new Response<productDTO>();
             try
             {
                 resp.status = true;
-                model.CreateUser = "auto";/* _generycService.GetModelFromToken(User);*/
-                resp.value = await _userService.add(model);
+                model.CreateUser = _generyService.GetModelFromToken(User);
+                resp.value = await _productService.create(model);
             }
             catch (Exception ex)
             {
@@ -69,14 +67,14 @@ namespace apiStock.Controllers
         [HttpPut]
         [Authorize]
         [Route("edit")]
-        public async Task<IActionResult> edit(userDTO model)
+        public async Task<IActionResult> edit(productDTO model)
         {
             var resp = new Response<bool>();
             try
             {
                 resp.status = true;
-                model.CreateUser = _generycService.GetModelFromToken(User);
-                resp.value = await _userService.edit(model);
+                model.CreateUser = _generyService.GetModelFromToken(User);
+                resp.value = await _productService.edit(model);
             }
             catch (Exception ex)
             {
@@ -97,8 +95,8 @@ namespace apiStock.Controllers
             try
             {
                 resp.status = true;
-                string user = _generycService.GetModelFromToken(User);
-                resp.value = await _userService.delete(id,user);
+                string user = _generyService.GetModelFromToken(User);
+                resp.value = await _productService.delete(id, user);
             }
             catch (Exception ex)
             {

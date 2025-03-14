@@ -9,13 +9,13 @@ using System.Text;
 
 namespace apiStock.BLL.Services
 {
-    public class _sessionServices
+    public class _sessionMiddleWare
     {
         private readonly IConfiguration _configuration;
         private readonly RequestDelegate _next;
         //private readonly IGenerycRepository<UserSession> _sessionService;
 
-        public _sessionServices(IConfiguration configuration, 
+        public _sessionMiddleWare(IConfiguration configuration, 
             RequestDelegate next/*,*/
             //IGenerycRepository<UserSession> sessionService
             )
@@ -50,13 +50,10 @@ namespace apiStock.BLL.Services
                     }, out SecurityToken validatedToken);
 
                     // Si el token es válido, registrar en la base de datos
-                    var jwtToken = (JwtSecurityToken)validatedToken;
-                    var username = jwtToken.Claims.First(x => x.Type == ClaimTypes.Name).Value;
-                    var name = jwtToken.Claims.First(x => x.Type == ClaimTypes.Name).Value;
-                    var user = jwtToken.Claims.First(x => x.Type == ClaimTypes.Actor).Value;
-                    var id = jwtToken.Claims.First(x => x.Type == ClaimTypes.Sid).Value;
-
-                    await registerSession(Convert.ToInt32(id), jwtToken, name, user);
+                    //var jwtToken = (JwtSecurityToken)validatedToken;
+                    //var username = jwtToken.Claims.First(x => x.Type == ClaimTypes.Actor).Value;
+                    //var name = jwtToken.Claims.First(x => x.Type == ClaimTypes.Name).Value;
+                    //var id = jwtToken.Claims.First(x => x.Type == ClaimTypes.Sid).Value;
 
                 }
                 catch (SecurityTokenExpiredException)
@@ -77,42 +74,6 @@ namespace apiStock.BLL.Services
 
             // Continuar con el siguiente middleware
             await _next(context);
-        }
-
-        private async Task<bool> registerSession(int id, JwtSecurityToken token, string name, string user)
-        {
-            try
-            {
-                //var list = await _sessionService.consult(mdl => mdl.UserId == id && mdl.Isactive == 1);
-                //if(list != null)
-                //{
-                //    foreach(var item in list)
-                //    {
-                //        item.Isactive = 0;
-                //        item.ModifUser = "sessionStart";
-                //        item.ModifDate = DateTime.Now;
-                //        item.EndTime = DateTime.Now;
-                //        bool resp = await _sessionService.update(item);
-                //    }
-                //}
-
-                //UserSession session = new UserSession{
-                //    UserId = id,
-                //    Token = token.ToString(),
-                //    Ipaddress = "",
-                //    UserAgent = name,
-                //    CreateUser = user
-                //};
-
-                //var mdl = await _sessionService.create(session);
-                //if (mdl == null)
-                //{
-                //   throw new TaskCanceledException("No se pudo crear la sesión.");
-                //}
-
-                return true;
-            }
-            catch { throw; }
         }
 
     }

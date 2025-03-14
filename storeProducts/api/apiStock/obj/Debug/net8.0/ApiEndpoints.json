@@ -16,25 +16,67 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "apiStock.Controllers.sessionController",
+    "ContainingType": "apiStock.Controllers.movementController",
     "Method": "create",
-    "RelativePath": "api/session/create",
+    "RelativePath": "api/movement/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "model",
-        "Type": "apiStock.DTO.userDTO",
+        "Type": "apiStock.DTO.movementDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "apiStock.Controllers.sessionController",
+    "ContainingType": "apiStock.Controllers.movementController",
+    "Method": "edit",
+    "RelativePath": "api/movement/edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "apiStock.DTO.movementDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiStock.Controllers.movementController",
+    "Method": "Get",
+    "RelativePath": "api/movement/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiStock.Controllers.productsController",
+    "Method": "create",
+    "RelativePath": "api/products/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "apiStock.DTO.productDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiStock.Controllers.productsController",
     "Method": "detele",
-    "RelativePath": "api/session/delete",
+    "RelativePath": "api/products/delete",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -48,9 +90,67 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "apiStock.Controllers.sessionController",
+    "ContainingType": "apiStock.Controllers.productsController",
     "Method": "edit",
-    "RelativePath": "api/session/edit",
+    "RelativePath": "api/products/edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "apiStock.DTO.productDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiStock.Controllers.productsController",
+    "Method": "Get",
+    "RelativePath": "api/products/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiStock.Controllers.usersController",
+    "Method": "create",
+    "RelativePath": "api/users/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "apiStock.DTO.userDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiStock.Controllers.usersController",
+    "Method": "detele",
+    "RelativePath": "api/users/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiStock.Controllers.usersController",
+    "Method": "edit",
+    "RelativePath": "api/users/edit",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -64,9 +164,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "apiStock.Controllers.sessionController",
+    "ContainingType": "apiStock.Controllers.usersController",
     "Method": "Get",
-    "RelativePath": "api/session/list",
+    "RelativePath": "api/users/list",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

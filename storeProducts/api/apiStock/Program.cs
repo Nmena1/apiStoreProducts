@@ -16,7 +16,7 @@ builder.Services.InjectDependency(builder.Configuration);
 var app = builder.Build();
 
 // Usar el middleware
-app.UseMiddleware<_sessionServices>();
+app.UseMiddleware<_sessionMiddleWare>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

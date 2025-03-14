@@ -11,6 +11,10 @@ namespace apiStock.Utility
             CreateMap<Role, roleDTO>().ReverseMap();
             CreateMap<User, userListDTO>().ReverseMap();
             CreateMap<User, userDTO>().ReverseMap();
+            CreateMap<Product, productDTO>().ReverseMap();
+
+            CreateMap<StockMovement, movementDTO>().ReverseMap();
+            CreateMap<StockMovement, movementListDTO>().ReverseMap();
         }
     }
 }

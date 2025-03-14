@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\_generatetkn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\_generatetkn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\_encriptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\_encriptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\utility\\automappeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:utility\\automappeeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\_sessionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\_sessionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\_generalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\_generalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\ioc\\dependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:ioc\\dependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\contract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\contract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\_generatetkn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\_generatetkn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\contract\\iroleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\contract\\iroleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\ioc\\dependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:ioc\\dependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\contract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\contract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\controllers\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:controllers\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\movementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\movementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\contract\\imovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|solutionrelative:bll\\services\\contract\\imovementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62260E0D-5972-48FB-BB8E-711F3D637234}|apiStock.csproj|c:\\users\\nmena\\documents\\github\\apistoreproducts\\storeproducts\\api\\apistock\\bll\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,8 +66,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T17:09:47.705Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -103,169 +117,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_generateTKN.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_generateTKN.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\_generateTKN.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_generateTKN.cs",
-              "RelativeToolTip": "BLL\\Services\\_generateTKN.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAMAAAAmAAAAAAAAAA==",
+              "Title": "_sessionMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_sessionMiddleWare.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\_sessionMiddleWare.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_sessionMiddleWare.cs",
+              "RelativeToolTip": "BLL\\Services\\_sessionMiddleWare.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T20:26:27.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T20:20:49.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "loginController.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\loginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\loginController.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\loginController.cs",
-              "RelativeToolTip": "Controllers\\loginController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvx8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T20:09:27.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T19:53:48.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_encriptService.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_encriptService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\_encriptService.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_encriptService.cs",
-              "RelativeToolTip": "BLL\\Services\\_encriptService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T19:29:31.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_generalService.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_generalService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\_generalService.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_generalService.cs",
-              "RelativeToolTip": "BLL\\Services\\_generalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T19:21:02.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "sessionController.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\sessionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\sessionController.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\sessionController.cs",
-              "RelativeToolTip": "Controllers\\sessionController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwv0IAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T19:15:31.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T17:09:47.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\Contract\\IUserService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\Contract\\IUserService.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\Contract\\IUserService.cs",
-              "RelativeToolTip": "BLL\\Services\\Contract\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:59:10.151Z",
+              "WhenOpened": "2025-03-14T17:31:11.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\UserService.cs",
-              "RelativeToolTip": "BLL\\Services\\UserService.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGwAAAAQAAAAAAAAAA==",
+              "Title": "_generateTKN.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_generateTKN.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\_generateTKN.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_generateTKN.cs",
+              "RelativeToolTip": "BLL\\Services\\_generateTKN.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T20:55:36.514Z",
+              "WhenOpened": "2025-03-14T17:31:02.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AutoMappeeProfile.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Utility\\AutoMappeeProfile.cs",
-              "RelativeDocumentMoniker": "Utility\\AutoMappeeProfile.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Utility\\AutoMappeeProfile.cs",
-              "RelativeToolTip": "Utility\\AutoMappeeProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Title": "productsController.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\productsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\productsController.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\productsController.cs",
+              "RelativeToolTip": "Controllers\\productsController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T20:02:46.622Z",
+              "WhenOpened": "2025-03-14T17:15:08.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "_generalService.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_generalService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\_generalService.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\_generalService.cs",
+              "RelativeToolTip": "BLL\\Services\\_generalService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:12:49.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Dependency.cs",
               "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\IOC\\Dependency.cs",
               "RelativeDocumentMoniker": "IOC\\Dependency.cs",
               "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\IOC\\Dependency.cs",
               "RelativeToolTip": "IOC\\Dependency.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwCQAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvxYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T20:58:22.092Z",
+              "WhenOpened": "2025-03-14T17:09:40.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "usersController.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\usersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\usersController.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\usersController.cs",
+              "RelativeToolTip": "Controllers\\usersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:07:26.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "movementController.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\movementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\movementController.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\Controllers\\movementController.cs",
+              "RelativeToolTip": "Controllers\\movementController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv1kAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:06:36.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovementService.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\MovementService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\MovementService.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\MovementService.cs",
+              "RelativeToolTip": "BLL\\Services\\MovementService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAADwv34AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T19:22:27.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "IRoleServices.cs",
-              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\Contract\\IRoleServices.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\Contract\\IRoleServices.cs",
-              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\Contract\\IRoleServices.cs",
-              "RelativeToolTip": "BLL\\Services\\Contract\\IRoleServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Title": "IMovementService.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\Contract\\IMovementService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Contract\\IMovementService.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\Contract\\IMovementService.cs",
+              "RelativeToolTip": "BLL\\Services\\Contract\\IMovementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T20:57:25.543Z"
+              "WhenOpened": "2025-03-13T19:16:50.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwH0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:36:23.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -275,9 +251,35 @@
               "RelativeDocumentMoniker": "BLL\\Services\\RoleService.cs",
               "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\RoleService.cs",
               "RelativeToolTip": "BLL\\Services\\RoleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T20:54:06.466Z"
+              "WhenOpened": "2025-03-11T17:50:42.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "BLL\\Services\\ProductService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:49:42.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\Contract\\IProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Contract\\IProductService.cs",
+              "ToolTip": "C:\\Users\\nmena\\Documents\\GitHub\\apiStoreProducts\\storeProducts\\api\\apiStock\\BLL\\Services\\Contract\\IProductService.cs",
+              "RelativeToolTip": "BLL\\Services\\Contract\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:45:11.945Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -55,7 +55,7 @@ namespace apiStock.DAL.Repository
             {
                 _dbContext.Set<TModel>().Remove(model); 
                 await _dbContext.SaveChangesAsync();
-
+                
                 return true;
             }
             catch { throw; }
