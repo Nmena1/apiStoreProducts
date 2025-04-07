@@ -22,7 +22,7 @@ namespace apiStock.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         [Route("list")]
         public async Task<IActionResult> Get()
         {

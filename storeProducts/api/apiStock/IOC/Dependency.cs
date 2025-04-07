@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using apiStock.BLL.Services.Contract;
+using Microsoft.Extensions.Options;
 
 namespace apiStock.IOC
 {
@@ -60,9 +61,21 @@ namespace apiStock.IOC
                 };
             });
 
+
+            //CORS
+            // En Program.cs o Startup.cs
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngularDev",
+                    builder => builder
+                        .WithOrigins("http://localhost:4200")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            });
         }
 
 
-        
+
     }
 }

@@ -47,3 +47,202 @@ Scaffold-DbContext "Data Source=DESKTOP-1PAD0L9;Initial Catalog=storeProducts;Us
 4. crear dependency.cs en IOC
 
 
+
+npm install @angular/material
+npm install sweetalert2
+npm install moment --save
+npm install @angular/material-moment-adapter
+npm install chart.js
+npm install xlsx
+**************************************************** create services
+ng g service services/product
+**************************************************** create interfaces
+
+ng generate interface Interfaces/ResponseApi
+`
+
+
+
+**************************************************** create reutilizables
+
+ng generate module reutilizable/Shared
+
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { ReactiveFormsModule, FormsModule} from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+import { MatCardModule } from '@angular/material/card';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatGridListModule } from '@angular/material/grid-list';
+
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule} from '@angular/material/paginator';
+import { MatDialogModule} from '@angular/material/dialog';
+import { MatSnackBarModule} from '@angular/material/snack-bar';
+import { MatTooltipModule} from '@angular/material/tooltip';
+import { MatAutocompleteModule} from '@angular/material/autocomplete';
+import { MatDatepickerModule} from '@angular/material/datepicker';
+
+import { MatNativeDateModule} from '@angular/material/core';
+import { MomentDateModule} from '@angular/material-moment-adapter';
+
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule
+  ],
+  exports: [
+    CommonModule,
+    ReactiveFormsModule, 
+    FormsModule,
+    HttpClientModule,
+    MatCardModule,
+    MatInputModule,
+    MatSelectModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatGridListModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatDialogModule,
+    MatSnackBarModule,
+    MatTooltipModule,
+    MatAutocompleteModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MomentDateModule
+  ],
+  providers: [
+    MatDatepickerModule,
+    MatNativeDateModule
+  ]
+})
+export class SharedModule { }
+
+
+**************************************************** create components
+
+ng generate component components/Login
+ng generate component components/Layout
+ng generate m components/Layout --routing
+
+estructura
+
+Lograr esta funcionalidad separantodo todo, en una app en angular 19.2.3
+quiero comunicar, redireccionar y obtener las referencias desde shared, el layout routing solo l para lo que este dentro y así
+como lo hago:
+proyecto
+	src
+		apps
+			components
+				layout
+					modules
+					pages
+						menu.html
+						menu.ts
+						etc...
+					layout.component
+					layout.component.ts
+					layout.module
+					layout-routing.module.ts
+				login
+			enviroments
+			interfaces
+			reutilizable
+				share.ts
+					import { NgModule } from '@angular/core';
+					import { CommonModule } from '@angular/common';
+
+					import { ReactiveFormsModule, FormsModule} from '@angular/forms';
+					import { HttpClientModule } from '@angular/common/http';
+
+					import { MatCardModule } from '@angular/material/card';
+					import { MatInputModule } from '@angular/material/input';
+					import { MatSelectModule } from '@angular/material/select';
+					import { MatProgressBarModule } from '@angular/material/progress-bar';
+					import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+					import { MatGridListModule } from '@angular/material/grid-list';
+
+					import { LayoutModule } from '@angular/cdk/layout';
+					import { MatToolbarModule } from '@angular/material/toolbar';
+					import { MatButtonModule } from '@angular/material/button';
+					import { MatSidenavModule } from '@angular/material/sidenav';
+					import { MatIconModule } from '@angular/material/icon';
+					import { MatListModule } from '@angular/material/list';
+
+					import { MatTableModule } from '@angular/material/table';
+					import { MatPaginatorModule} from '@angular/material/paginator';
+					import { MatDialogModule} from '@angular/material/dialog';
+					import { MatSnackBarModule} from '@angular/material/snack-bar';
+					import { MatTooltipModule} from '@angular/material/tooltip';
+					import { MatAutocompleteModule} from '@angular/material/autocomplete';
+					import { MatDatepickerModule} from '@angular/material/datepicker';
+
+					import { MatNativeDateModule} from '@angular/material/core';
+					import { MomentDateModule} from '@angular/material-moment-adapter';
+
+					@NgModule({
+					  declarations: [],
+					  imports: [
+						CommonModule
+					  ],
+					  exports: [
+						CommonModule,
+						ReactiveFormsModule, 
+						FormsModule,
+						HttpClientModule,
+						MatCardModule,
+						MatInputModule,
+						MatSelectModule,
+						MatProgressBarModule,
+						MatProgressSpinnerModule,
+						MatGridListModule,
+						LayoutModule,
+						MatToolbarModule,
+						MatButtonModule,
+						MatSidenavModule,
+						MatIconModule,
+						MatListModule,
+						MatTableModule,
+						MatPaginatorModule,
+						MatDialogModule,
+						MatSnackBarModule,
+						MatTooltipModule,
+						MatAutocompleteModule,
+						MatDatepickerModule,
+						MatNativeDateModule,
+						MomentDateModule
+					  ],
+					  providers: [
+						MatDatepickerModule,
+						MatNativeDateModule
+					  ]
+					})
+					export class SharedModule { }
+					"
+			services
+			app.component.html
+			app.component.ts
+			app.config.ts
+			app.routes.server
+			app.routes.ts
+		
+		

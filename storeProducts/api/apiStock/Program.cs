@@ -18,6 +18,9 @@ var app = builder.Build();
 // Usar el middleware
 app.UseMiddleware<_sessionMiddleWare>();
 
+//CORS
+app.UseCors("AllowAngularDev");
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
